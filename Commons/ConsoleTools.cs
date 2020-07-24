@@ -4,7 +4,7 @@ using System.Text;
 
 namespace POO2.Commons
 {
-    public class ConsoleTools
+    public class ConsoleTools : IConsoleTools
     {
         public void Escrever (string value)
         {

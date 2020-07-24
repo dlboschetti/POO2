@@ -8,7 +8,7 @@ namespace POO2.General
 {
     public class Automovel : Veiculo
     {
-        private ConsoleTools _consoleTools = new ConsoleTools();
+        private IConsoleTools _consoleTools = new ConsoleTools();
 
         public Automovel(string tipo) : base(tipo)
         {

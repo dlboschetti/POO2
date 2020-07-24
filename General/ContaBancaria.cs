@@ -10,7 +10,7 @@ namespace POO2.General
         public string Conta { get; set; }
         public string Agencia { get; set; }
         public int Saldo { get; set; }
-        ConsoleTools _consoleTools = new ConsoleTools();
+        public IConsoleTools _consoleTools = new ConsoleTools();
         public ContaBancaria()
         {
             _consoleTools.Escrever("Digite o seu nome: ");
